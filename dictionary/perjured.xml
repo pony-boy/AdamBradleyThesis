@@ -1,0 +1,3 @@
+<entry_list version="1.0">
+	<entry id="perjure"><ew>perjure</ew><subj>LW</subj><hw>per*jure</hw><sound><wav>perjur01.wav</wav><wpr>!pur-jur</wpr></sound><pr>&#712;p&#601;r-j&#601;r</pr><fl>verb</fl><in><if>per*jured</if></in><in><if>per*jur*ing</if><sound><wav>perjur02.wav</wav><wpr>!pur-ju-riN</wpr></sound> <pr>&#712;p&#601;r-j&#601;-ri&#331;, &#712;p&#601;rj-ri&#331;</pr></in><et>Anglo-French <it>parjurer, perjurer,</it> from Latin <it>perjurare,</it> from <it>per-</it> detrimentally, for the worse + <it>jurare</it> to swear <ma>per-, jury</ma></et><def><vt>transitive verb</vt><date>1535</date> <sn>1</sn> <dt>:to make a <fw>perjurer</fw> of (oneself)</dt> <sn>2</sn> <ssl>obsolete</ssl> <dt>:to cause to commit <fw>perjury</fw></dt></def></entry>
+</entry_list>
