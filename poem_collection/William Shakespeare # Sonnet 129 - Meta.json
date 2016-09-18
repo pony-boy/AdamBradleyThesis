@@ -1,0 +1,922 @@
+{
+  "poem_header": [
+    [
+      {
+        "TOK": "Sonnet",
+        "LEM": "sonnet",
+        "POS": "NN",
+        "NER": "O"
+      },
+      {
+        "TOK": "129",
+        "LEM": "129",
+        "POS": "CD",
+        "NER": "O"
+      }
+    ],
+    [
+      {
+        "TOK": "William",
+        "LEM": "William",
+        "POS": "NNP",
+        "NER": "PERSON"
+      },
+      {
+        "TOK": "Shakespeare",
+        "LEM": "Shakespeare",
+        "POS": "NNP",
+        "NER": "PERSON"
+      }
+    ]
+  ],
+  "stanzas": [
+    [
+      [
+        {
+          "TOK": "Th",
+          "LEM": "th",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "\u0027",
+          "LEM": "\u0027",
+          "POS": "\u0027\u0027",
+          "NER": "O"
+        },
+        {
+          "TOK": "expense",
+          "LEM": "expense",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "of",
+          "LEM": "of",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "spirit",
+          "LEM": "spirit",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "a",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "waste",
+          "LEM": "waste",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "of",
+          "LEM": "of",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "shame",
+          "LEM": "shame",
+          "POS": "NN",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Is",
+          "LEM": "be",
+          "POS": "VBZ",
+          "NER": "O"
+        },
+        {
+          "TOK": "lust",
+          "LEM": "lust",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "action",
+          "LEM": "action",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        },
+        {
+          "TOK": "and",
+          "LEM": "and",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "till",
+          "LEM": "till",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "action",
+          "LEM": "action",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "lust",
+          "LEM": "lust",
+          "POS": "NN",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Is",
+          "LEM": "be",
+          "POS": "VBZ",
+          "NER": "O"
+        },
+        {
+          "TOK": "perjured",
+          "LEM": "perjure",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "murderous",
+          "LEM": "murderous",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "bloody",
+          "LEM": "bloody",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "full",
+          "LEM": "full",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": "of",
+          "LEM": "of",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "blame",
+          "LEM": "blame",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Savage",
+          "LEM": "Savage",
+          "POS": "NNP",
+          "NER": "LOCATION"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "extreme",
+          "LEM": "extreme",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "rude",
+          "LEM": "rude",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "cruel",
+          "LEM": "cruel",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "not",
+          "LEM": "not",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": "to",
+          "LEM": "to",
+          "POS": "TO",
+          "NER": "O"
+        },
+        {
+          "TOK": "trust",
+          "LEM": "trust",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Enjoyed",
+          "LEM": "enjoy",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": "no",
+          "LEM": "no",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "sooner",
+          "LEM": "sooner",
+          "POS": "RBR",
+          "NER": "O"
+        },
+        {
+          "TOK": "but",
+          "LEM": "but",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "despised",
+          "LEM": "despise",
+          "POS": "VBD",
+          "NER": "O"
+        },
+        {
+          "TOK": "straight",
+          "LEM": "straight",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": ":",
+          "LEM": ":",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Past",
+          "LEM": "past",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": "reason",
+          "LEM": "reason",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "hunted",
+          "LEM": "hunt",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        },
+        {
+          "TOK": "and",
+          "LEM": "and",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "no",
+          "LEM": "no",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "sooner",
+          "LEM": "sooner",
+          "POS": "RBR",
+          "NER": "O"
+        },
+        {
+          "TOK": "had",
+          "LEM": "have",
+          "POS": "VBD",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Past",
+          "LEM": "past",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": "reason",
+          "LEM": "reason",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "hated",
+          "LEM": "hate",
+          "POS": "VBD",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "as",
+          "LEM": "as",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "a",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "swallowed",
+          "LEM": "swallow",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": "bait",
+          "LEM": "bait",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "On",
+          "LEM": "on",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "purpose",
+          "LEM": "purpose",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "laid",
+          "LEM": "lay",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": "to",
+          "LEM": "to",
+          "POS": "TO",
+          "NER": "O"
+        },
+        {
+          "TOK": "make",
+          "LEM": "make",
+          "POS": "VB",
+          "NER": "O"
+        },
+        {
+          "TOK": "the",
+          "LEM": "the",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "taker",
+          "LEM": "taker",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "mad",
+          "LEM": "mad",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ":",
+          "LEM": ":",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Mad",
+          "LEM": "Mad",
+          "POS": "NNP",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "pursuit",
+          "LEM": "pursuit",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "and",
+          "LEM": "and",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "possession",
+          "LEM": "possession",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "so",
+          "LEM": "so",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Had",
+          "LEM": "have",
+          "POS": "VBD",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "having",
+          "LEM": "have",
+          "POS": "VBG",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "and",
+          "LEM": "and",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "quest",
+          "LEM": "quest",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "to",
+          "LEM": "to",
+          "POS": "TO",
+          "NER": "O"
+        },
+        {
+          "TOK": "have",
+          "LEM": "have",
+          "POS": "VB",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "extreme",
+          "LEM": "extreme",
+          "POS": "JJ",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "A",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "bliss",
+          "LEM": "bliss",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "in",
+          "LEM": "in",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": "proof",
+          "LEM": "proof",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "and",
+          "LEM": "and",
+          "POS": "CC",
+          "NER": "O"
+        },
+        {
+          "TOK": "proved",
+          "LEM": "prove",
+          "POS": "VBD",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "a",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "very",
+          "LEM": "very",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": "woe",
+          "LEM": "woe",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "Before",
+          "LEM": "before",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "a",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "joy",
+          "LEM": "joy",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "proposed",
+          "LEM": "propose",
+          "POS": "VBN",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        },
+        {
+          "TOK": "behind",
+          "LEM": "behind",
+          "POS": "IN",
+          "NER": "O"
+        },
+        {
+          "TOK": ",",
+          "LEM": ",",
+          "POS": ",",
+          "NER": "O"
+        },
+        {
+          "TOK": "a",
+          "LEM": "a",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "dream",
+          "LEM": "dream",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ".",
+          "LEM": ".",
+          "POS": ".",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "All",
+          "LEM": "all",
+          "POS": "PDT",
+          "NER": "O"
+        },
+        {
+          "TOK": "this",
+          "LEM": "this",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "the",
+          "LEM": "the",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "world",
+          "LEM": "world",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "well",
+          "LEM": "well",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": "knows",
+          "LEM": "know",
+          "POS": "VBZ",
+          "NER": "O"
+        },
+        {
+          "TOK": ";",
+          "LEM": ";",
+          "POS": ":",
+          "NER": "O"
+        },
+        {
+          "TOK": "yet",
+          "LEM": "yet",
+          "POS": "RB",
+          "NER": "O"
+        },
+        {
+          "TOK": "none",
+          "LEM": "none",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "knows",
+          "LEM": "know",
+          "POS": "VBZ",
+          "NER": "O"
+        },
+        {
+          "TOK": "well",
+          "LEM": "well",
+          "POS": "RB",
+          "NER": "O"
+        }
+      ],
+      [
+        {
+          "TOK": "To",
+          "LEM": "to",
+          "POS": "TO",
+          "NER": "O"
+        },
+        {
+          "TOK": "shun",
+          "LEM": "shun",
+          "POS": "VB",
+          "NER": "O"
+        },
+        {
+          "TOK": "the",
+          "LEM": "the",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "heaven",
+          "LEM": "heaven",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": "that",
+          "LEM": "that",
+          "POS": "WDT",
+          "NER": "O"
+        },
+        {
+          "TOK": "leads",
+          "LEM": "lead",
+          "POS": "VBZ",
+          "NER": "O"
+        },
+        {
+          "TOK": "men",
+          "LEM": "man",
+          "POS": "NNS",
+          "NER": "O"
+        },
+        {
+          "TOK": "to",
+          "LEM": "to",
+          "POS": "TO",
+          "NER": "O"
+        },
+        {
+          "TOK": "this",
+          "LEM": "this",
+          "POS": "DT",
+          "NER": "O"
+        },
+        {
+          "TOK": "hell",
+          "LEM": "hell",
+          "POS": "NN",
+          "NER": "O"
+        },
+        {
+          "TOK": ".",
+          "LEM": ".",
+          "POS": ".",
+          "NER": "O"
+        }
+      ]
+    ]
+  ]
+}
