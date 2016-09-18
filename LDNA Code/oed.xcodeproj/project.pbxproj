@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1015A43A163B30EE00B5CE66 /* monteCristo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1015A439163B30EE00B5CE66 /* monteCristo.txt */; };
+		ED824FC4164978A300279ED5 /* french.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED824FBF164978A300279ED5 /* french.txt */; };
+		ED824FC5164978A300279ED5 /* german.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED824FC0164978A300279ED5 /* german.txt */; };
+		ED824FC6164978A300279ED5 /* italian.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED824FC1164978A300279ED5 /* italian.txt */; };
+		ED824FC7164978A300279ED5 /* japanese.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED824FC2164978A300279ED5 /* japanese.txt */; };
+		ED824FC8164978A300279ED5 /* spanish.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED824FC3164978A300279ED5 /* spanish.txt */; };
+		EDB287DF1617607E005D4E93 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB287DE1617607E005D4E93 /* Cocoa.framework */; };
+		EDB287E91617607E005D4E93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB287E71617607E005D4E93 /* InfoPlist.strings */; };
+		EDB287EB1617607E005D4E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB287EA1617607E005D4E93 /* main.m */; };
+		EDB287EF1617607E005D4E93 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EDB287ED1617607E005D4E93 /* Credits.rtf */; };
+		EDB287F21617607E005D4E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB287F11617607E005D4E93 /* AppDelegate.m */; };
+		EDB287F51617607F005D4E93 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB287F31617607F005D4E93 /* MainMenu.xib */; };
+		EDB287F81617607F005D4E93 /* oed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDB287F61617607F005D4E93 /* oed.xcdatamodeld */; };
+		EDB28808161765B4005D4E93 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB28807161765B4005D4E93 /* Word.m */; };
+		EDB49C7016432B1C00A7A2E4 /* pg76.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6716432B1C00A7A2E4 /* pg76.txt */; };
+		EDB49C7116432B1C00A7A2E4 /* pg1342.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6816432B1C00A7A2E4 /* pg1342.txt */; };
+		EDB49C7216432B1C00A7A2E4 /* pg1497.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6916432B1C00A7A2E4 /* pg1497.txt */; };
+		EDB49C7316432B1C00A7A2E4 /* pg1661.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6A16432B1C00A7A2E4 /* pg1661.txt */; };
+		EDB49C7416432B1C00A7A2E4 /* pg2591.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6B16432B1C00A7A2E4 /* pg2591.txt */; };
+		EDB49C7516432B1C00A7A2E4 /* pg5200.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6C16432B1C00A7A2E4 /* pg5200.txt */; };
+		EDB49C7616432B1C00A7A2E4 /* pg16328.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6D16432B1C00A7A2E4 /* pg16328.txt */; };
+		EDB49C7716432B1C00A7A2E4 /* pg27827.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6E16432B1C00A7A2E4 /* pg27827.txt */; };
+		EDB49C7816432B1C00A7A2E4 /* pg30601.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C6F16432B1C00A7A2E4 /* pg30601.txt */; };
+		EDB49C8316432C5E00A7A2E4 /* pg0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7916432C5E00A7A2E4 /* pg0.txt */; };
+		EDB49C8416432C5E00A7A2E4 /* pg1.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7A16432C5E00A7A2E4 /* pg1.txt */; };
+		EDB49C8516432C5E00A7A2E4 /* pg2.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7B16432C5E00A7A2E4 /* pg2.txt */; };
+		EDB49C8616432C5E00A7A2E4 /* pg3.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7C16432C5E00A7A2E4 /* pg3.txt */; };
+		EDB49C8716432C5E00A7A2E4 /* pg4.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7D16432C5E00A7A2E4 /* pg4.txt */; };
+		EDB49C8816432C5E00A7A2E4 /* pg5.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7E16432C5E00A7A2E4 /* pg5.txt */; };
+		EDB49C8916432C5E00A7A2E4 /* pg6.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C7F16432C5E00A7A2E4 /* pg6.txt */; };
+		EDB49C8A16432C5E00A7A2E4 /* pg7.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C8016432C5E00A7A2E4 /* pg7.txt */; };
+		EDB49C8B16432C5E00A7A2E4 /* pg8.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C8116432C5E00A7A2E4 /* pg8.txt */; };
+		EDB49C8C16432C5E00A7A2E4 /* pg9.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C8216432C5E00A7A2E4 /* pg9.txt */; };
+		EDB49C8E16432C7600A7A2E4 /* pg10.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C8D16432C7600A7A2E4 /* pg10.txt */; };
+		EDB49C9016433B9200A7A2E4 /* pg100.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C8F16433B9200A7A2E4 /* pg100.txt */; };
+		EDB49C9B16433DFB00A7A2E4 /* 0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9116433DFB00A7A2E4 /* 0.txt */; };
+		EDB49C9C16433DFB00A7A2E4 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9216433DFB00A7A2E4 /* 1.txt */; };
+		EDB49C9D16433DFB00A7A2E4 /* 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9316433DFB00A7A2E4 /* 2.txt */; };
+		EDB49C9E16433DFB00A7A2E4 /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9416433DFB00A7A2E4 /* 3.txt */; };
+		EDB49C9F16433DFB00A7A2E4 /* 4.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9516433DFB00A7A2E4 /* 4.txt */; };
+		EDB49CA016433DFB00A7A2E4 /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9616433DFB00A7A2E4 /* 5.txt */; };
+		EDB49CA116433DFB00A7A2E4 /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9716433DFB00A7A2E4 /* 6.txt */; };
+		EDB49CA216433DFB00A7A2E4 /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9816433DFB00A7A2E4 /* 7.txt */; };
+		EDB49CA316433DFB00A7A2E4 /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9916433DFB00A7A2E4 /* 8.txt */; };
+		EDB49CA416433DFB00A7A2E4 /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49C9A16433DFB00A7A2E4 /* 9.txt */; };
+		EDB49CAF1643664800A7A2E4 /* es0.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CA91643664800A7A2E4 /* es0.txt */; };
+		EDB49CB01643664800A7A2E4 /* es1.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CAA1643664800A7A2E4 /* es1.txt */; };
+		EDB49CB11643664800A7A2E4 /* es2.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CAB1643664800A7A2E4 /* es2.txt */; };
+		EDB49CB21643664800A7A2E4 /* es3.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CAC1643664800A7A2E4 /* es3.txt */; };
+		EDB49CB31643664800A7A2E4 /* es4.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CAD1643664800A7A2E4 /* es4.txt */; };
+		EDB49CB41643664800A7A2E4 /* es5.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB49CAE1643664800A7A2E4 /* es5.txt */; };
+		EDCBD74916FA203300A3CD74 /* cummingsPoemComponents.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDCBD74716FA203300A3CD74 /* cummingsPoemComponents.txt */; };
+		EDCBD74A16FA203300A3CD74 /* sms_list_romanCharactersOnly.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDCBD74816FA203300A3CD74 /* sms_list_romanCharactersOnly.txt */; };
+		EDDC11971640CC0D004B8AC9 /* bible_king_james.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDC11961640CC0D004B8AC9 /* bible_king_james.txt */; };
+		EDDC119A1640CC24004B8AC9 /* joyce_the_dead.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDC11991640CC24004B8AC9 /* joyce_the_dead.txt */; };
+		EDDC119C1640CC85004B8AC9 /* cervantes_don_quixote.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDC119B1640CC85004B8AC9 /* cervantes_don_quixote.txt */; };
+		EDDC119E1640CD2D004B8AC9 /* tyger.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDC119D1640CD2D004B8AC9 /* tyger.txt */; };
+		EDDD136616F0188D00252215 /* small.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDDD136516F0188D00252215 /* small.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1015A439163B30EE00B5CE66 /* monteCristo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monteCristo.txt; sourceTree = "<group>"; };
+		ED52B60616176E2F00B357AC /* 2e.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2e.txt; sourceTree = "<group>"; };
+		ED824FBF164978A300279ED5 /* french.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = french.txt; sourceTree = "<group>"; };
+		ED824FC0164978A300279ED5 /* german.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = german.txt; sourceTree = "<group>"; };
+		ED824FC1164978A300279ED5 /* italian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = italian.txt; sourceTree = "<group>"; };
+		ED824FC2164978A300279ED5 /* japanese.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = japanese.txt; sourceTree = "<group>"; };
+		ED824FC3164978A300279ED5 /* spanish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spanish.txt; sourceTree = "<group>"; };
+		EDB287DA1617607E005D4E93 /* oed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB287DE1617607E005D4E93 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EDB287E11617607E005D4E93 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EDB287E21617607E005D4E93 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EDB287E31617607E005D4E93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDB287E61617607E005D4E93 /* oed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oed-Info.plist"; sourceTree = "<group>"; };
+		EDB287E81617607E005D4E93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB287EA1617607E005D4E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB287EC1617607E005D4E93 /* oed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oed-Prefix.pch"; sourceTree = "<group>"; };
+		EDB287EE1617607E005D4E93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EDB287F01617607E005D4E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB287F11617607E005D4E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB287F41617607F005D4E93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EDB287F71617607F005D4E93 /* oed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oed.xcdatamodel; sourceTree = "<group>"; };
+		EDB28806161765B4005D4E93 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		EDB28807161765B4005D4E93 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		EDB49C6716432B1C00A7A2E4 /* pg76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg76.txt; sourceTree = "<group>"; };
+		EDB49C6816432B1C00A7A2E4 /* pg1342.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg1342.txt; sourceTree = "<group>"; };
+		EDB49C6916432B1C00A7A2E4 /* pg1497.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg1497.txt; sourceTree = "<group>"; };
+		EDB49C6A16432B1C00A7A2E4 /* pg1661.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg1661.txt; sourceTree = "<group>"; };
+		EDB49C6B16432B1C00A7A2E4 /* pg2591.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg2591.txt; sourceTree = "<group>"; };
+		EDB49C6C16432B1C00A7A2E4 /* pg5200.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg5200.txt; sourceTree = "<group>"; };
+		EDB49C6D16432B1C00A7A2E4 /* pg16328.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg16328.txt; sourceTree = "<group>"; };
+		EDB49C6E16432B1C00A7A2E4 /* pg27827.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg27827.txt; sourceTree = "<group>"; };
+		EDB49C6F16432B1C00A7A2E4 /* pg30601.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg30601.txt; sourceTree = "<group>"; };
+		EDB49C7916432C5E00A7A2E4 /* pg0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg0.txt; sourceTree = "<group>"; };
+		EDB49C7A16432C5E00A7A2E4 /* pg1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg1.txt; sourceTree = "<group>"; };
+		EDB49C7B16432C5E00A7A2E4 /* pg2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg2.txt; sourceTree = "<group>"; };
+		EDB49C7C16432C5E00A7A2E4 /* pg3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg3.txt; sourceTree = "<group>"; };
+		EDB49C7D16432C5E00A7A2E4 /* pg4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg4.txt; sourceTree = "<group>"; };
+		EDB49C7E16432C5E00A7A2E4 /* pg5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg5.txt; sourceTree = "<group>"; };
+		EDB49C7F16432C5E00A7A2E4 /* pg6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg6.txt; sourceTree = "<group>"; };
+		EDB49C8016432C5E00A7A2E4 /* pg7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg7.txt; sourceTree = "<group>"; };
+		EDB49C8116432C5E00A7A2E4 /* pg8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg8.txt; sourceTree = "<group>"; };
+		EDB49C8216432C5E00A7A2E4 /* pg9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg9.txt; sourceTree = "<group>"; };
+		EDB49C8D16432C7600A7A2E4 /* pg10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg10.txt; sourceTree = "<group>"; };
+		EDB49C8F16433B9200A7A2E4 /* pg100.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg100.txt; sourceTree = "<group>"; };
+		EDB49C9116433DFB00A7A2E4 /* 0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0.txt; sourceTree = "<group>"; };
+		EDB49C9216433DFB00A7A2E4 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		EDB49C9316433DFB00A7A2E4 /* 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		EDB49C9416433DFB00A7A2E4 /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		EDB49C9516433DFB00A7A2E4 /* 4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		EDB49C9616433DFB00A7A2E4 /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		EDB49C9716433DFB00A7A2E4 /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		EDB49C9816433DFB00A7A2E4 /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		EDB49C9916433DFB00A7A2E4 /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
+		EDB49C9A16433DFB00A7A2E4 /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
+		EDB49CA91643664800A7A2E4 /* es0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es0.txt; sourceTree = "<group>"; };
+		EDB49CAA1643664800A7A2E4 /* es1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es1.txt; sourceTree = "<group>"; };
+		EDB49CAB1643664800A7A2E4 /* es2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es2.txt; sourceTree = "<group>"; };
+		EDB49CAC1643664800A7A2E4 /* es3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es3.txt; sourceTree = "<group>"; };
+		EDB49CAD1643664800A7A2E4 /* es4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es4.txt; sourceTree = "<group>"; };
+		EDB49CAE1643664800A7A2E4 /* es5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = es5.txt; sourceTree = "<group>"; };
+		EDCBD74716FA203300A3CD74 /* cummingsPoemComponents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cummingsPoemComponents.txt; sourceTree = "<group>"; };
+		EDCBD74816FA203300A3CD74 /* sms_list_romanCharactersOnly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sms_list_romanCharactersOnly.txt; sourceTree = "<group>"; };
+		EDDC11961640CC0D004B8AC9 /* bible_king_james.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bible_king_james.txt; sourceTree = "<group>"; };
+		EDDC11991640CC24004B8AC9 /* joyce_the_dead.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = joyce_the_dead.txt; sourceTree = "<group>"; };
+		EDDC119B1640CC85004B8AC9 /* cervantes_don_quixote.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cervantes_don_quixote.txt; sourceTree = "<group>"; };
+		EDDC119D1640CD2D004B8AC9 /* tyger.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tyger.txt; sourceTree = "<group>"; };
+		EDDD136516F0188D00252215 /* small.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = small.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB287D71617607E005D4E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB287DF1617607E005D4E93 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB287CF1617607E005D4E93 = {
+			isa = PBXGroup;
+			children = (
+				EDB287E41617607E005D4E93 /* oed */,
+				EDB287DD1617607E005D4E93 /* Frameworks */,
+				EDB287DB1617607E005D4E93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB287DB1617607E005D4E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB287DA1617607E005D4E93 /* oed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB287DD1617607E005D4E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB287DE1617607E005D4E93 /* Cocoa.framework */,
+				EDB287E01617607E005D4E93 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB287E01617607E005D4E93 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB287E11617607E005D4E93 /* AppKit.framework */,
+				EDB287E21617607E005D4E93 /* CoreData.framework */,
+				EDB287E31617607E005D4E93 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EDB287E41617607E005D4E93 /* oed */ = {
+			isa = PBXGroup;
+			children = (
+				EDCBD74716FA203300A3CD74 /* cummingsPoemComponents.txt */,
+				EDCBD74816FA203300A3CD74 /* sms_list_romanCharactersOnly.txt */,
+				EDB287F01617607E005D4E93 /* AppDelegate.h */,
+				EDB287F11617607E005D4E93 /* AppDelegate.m */,
+				EDB287F31617607F005D4E93 /* MainMenu.xib */,
+				EDB287F61617607F005D4E93 /* oed.xcdatamodeld */,
+				EDB28806161765B4005D4E93 /* Word.h */,
+				EDB28807161765B4005D4E93 /* Word.m */,
+				ED824FBF164978A300279ED5 /* french.txt */,
+				EDDD136516F0188D00252215 /* small.txt */,
+				ED824FC0164978A300279ED5 /* german.txt */,
+				ED824FC1164978A300279ED5 /* italian.txt */,
+				ED824FC2164978A300279ED5 /* japanese.txt */,
+				ED824FC3164978A300279ED5 /* spanish.txt */,
+				ED52B60616176E2F00B357AC /* 2e.txt */,
+				1015A439163B30EE00B5CE66 /* monteCristo.txt */,
+				EDDC11961640CC0D004B8AC9 /* bible_king_james.txt */,
+				EDDC119B1640CC85004B8AC9 /* cervantes_don_quixote.txt */,
+				EDDC119D1640CD2D004B8AC9 /* tyger.txt */,
+				EDDC11991640CC24004B8AC9 /* joyce_the_dead.txt */,
+				EDB49CA91643664800A7A2E4 /* es0.txt */,
+				EDB49CAA1643664800A7A2E4 /* es1.txt */,
+				EDB49CAB1643664800A7A2E4 /* es2.txt */,
+				EDB49CAC1643664800A7A2E4 /* es3.txt */,
+				EDB49CAD1643664800A7A2E4 /* es4.txt */,
+				EDB49CAE1643664800A7A2E4 /* es5.txt */,
+				EDB49C9116433DFB00A7A2E4 /* 0.txt */,
+				EDB49C9216433DFB00A7A2E4 /* 1.txt */,
+				EDB49C9316433DFB00A7A2E4 /* 2.txt */,
+				EDB49C9416433DFB00A7A2E4 /* 3.txt */,
+				EDB49C9516433DFB00A7A2E4 /* 4.txt */,
+				EDB49C9616433DFB00A7A2E4 /* 5.txt */,
+				EDB49C9716433DFB00A7A2E4 /* 6.txt */,
+				EDB49C9816433DFB00A7A2E4 /* 7.txt */,
+				EDB49C9916433DFB00A7A2E4 /* 8.txt */,
+				EDB49C9A16433DFB00A7A2E4 /* 9.txt */,
+				EDB49C6516432B0E00A7A2E4 /* Gutenberg */,
+				EDB287E51617607E005D4E93 /* Supporting Files */,
+			);
+			path = oed;
+			sourceTree = "<group>";
+		};
+		EDB287E51617607E005D4E93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB287E61617607E005D4E93 /* oed-Info.plist */,
+				EDB287E71617607E005D4E93 /* InfoPlist.strings */,
+				EDB287EA1617607E005D4E93 /* main.m */,
+				EDB287EC1617607E005D4E93 /* oed-Prefix.pch */,
+				EDB287ED1617607E005D4E93 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB49C6516432B0E00A7A2E4 /* Gutenberg */ = {
+			isa = PBXGroup;
+			children = (
+				EDB49C7916432C5E00A7A2E4 /* pg0.txt */,
+				EDB49C7A16432C5E00A7A2E4 /* pg1.txt */,
+				EDB49C7B16432C5E00A7A2E4 /* pg2.txt */,
+				EDB49C7C16432C5E00A7A2E4 /* pg3.txt */,
+				EDB49C7D16432C5E00A7A2E4 /* pg4.txt */,
+				EDB49C7E16432C5E00A7A2E4 /* pg5.txt */,
+				EDB49C7F16432C5E00A7A2E4 /* pg6.txt */,
+				EDB49C8016432C5E00A7A2E4 /* pg7.txt */,
+				EDB49C8116432C5E00A7A2E4 /* pg8.txt */,
+				EDB49C8216432C5E00A7A2E4 /* pg9.txt */,
+				EDB49C8D16432C7600A7A2E4 /* pg10.txt */,
+				EDB49C6716432B1C00A7A2E4 /* pg76.txt */,
+				EDB49C8F16433B9200A7A2E4 /* pg100.txt */,
+				EDB49C6816432B1C00A7A2E4 /* pg1342.txt */,
+				EDB49C6916432B1C00A7A2E4 /* pg1497.txt */,
+				EDB49C6A16432B1C00A7A2E4 /* pg1661.txt */,
+				EDB49C6B16432B1C00A7A2E4 /* pg2591.txt */,
+				EDB49C6C16432B1C00A7A2E4 /* pg5200.txt */,
+				EDB49C6D16432B1C00A7A2E4 /* pg16328.txt */,
+				EDB49C6E16432B1C00A7A2E4 /* pg27827.txt */,
+				EDB49C6F16432B1C00A7A2E4 /* pg30601.txt */,
+			);
+			name = Gutenberg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB287D91617607E005D4E93 /* oed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB287FB1617607F005D4E93 /* Build configuration list for PBXNativeTarget "oed" */;
+			buildPhases = (
+				EDB287D61617607E005D4E93 /* Sources */,
+				EDB287D71617607E005D4E93 /* Frameworks */,
+				EDB287D81617607E005D4E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oed;
+			productName = oed;
+			productReference = EDB287DA1617607E005D4E93 /* oed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB287D11617607E005D4E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = moi;
+			};
+			buildConfigurationList = EDB287D41617607E005D4E93 /* Build configuration list for PBXProject "oed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDB287CF1617607E005D4E93;
+			productRefGroup = EDB287DB1617607E005D4E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB287D91617607E005D4E93 /* oed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB287D81617607E005D4E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB287E91617607E005D4E93 /* InfoPlist.strings in Resources */,
+				EDB287EF1617607E005D4E93 /* Credits.rtf in Resources */,
+				EDB287F51617607F005D4E93 /* MainMenu.xib in Resources */,
+				1015A43A163B30EE00B5CE66 /* monteCristo.txt in Resources */,
+				EDDC11971640CC0D004B8AC9 /* bible_king_james.txt in Resources */,
+				EDDC119A1640CC24004B8AC9 /* joyce_the_dead.txt in Resources */,
+				EDDC119C1640CC85004B8AC9 /* cervantes_don_quixote.txt in Resources */,
+				EDDC119E1640CD2D004B8AC9 /* tyger.txt in Resources */,
+				EDB49C7016432B1C00A7A2E4 /* pg76.txt in Resources */,
+				EDB49C7116432B1C00A7A2E4 /* pg1342.txt in Resources */,
+				EDB49C7216432B1C00A7A2E4 /* pg1497.txt in Resources */,
+				EDB49C7316432B1C00A7A2E4 /* pg1661.txt in Resources */,
+				EDB49C7416432B1C00A7A2E4 /* pg2591.txt in Resources */,
+				EDB49C7516432B1C00A7A2E4 /* pg5200.txt in Resources */,
+				EDB49C7616432B1C00A7A2E4 /* pg16328.txt in Resources */,
+				EDB49C7716432B1C00A7A2E4 /* pg27827.txt in Resources */,
+				EDB49C7816432B1C00A7A2E4 /* pg30601.txt in Resources */,
+				EDB49C8316432C5E00A7A2E4 /* pg0.txt in Resources */,
+				EDB49C8416432C5E00A7A2E4 /* pg1.txt in Resources */,
+				EDB49C8516432C5E00A7A2E4 /* pg2.txt in Resources */,
+				EDB49C8616432C5E00A7A2E4 /* pg3.txt in Resources */,
+				EDB49C8716432C5E00A7A2E4 /* pg4.txt in Resources */,
+				EDB49C8816432C5E00A7A2E4 /* pg5.txt in Resources */,
+				EDB49C8916432C5E00A7A2E4 /* pg6.txt in Resources */,
+				EDB49C8A16432C5E00A7A2E4 /* pg7.txt in Resources */,
+				EDB49C8B16432C5E00A7A2E4 /* pg8.txt in Resources */,
+				EDB49C8C16432C5E00A7A2E4 /* pg9.txt in Resources */,
+				EDB49C8E16432C7600A7A2E4 /* pg10.txt in Resources */,
+				EDB49C9016433B9200A7A2E4 /* pg100.txt in Resources */,
+				EDB49C9B16433DFB00A7A2E4 /* 0.txt in Resources */,
+				EDB49C9C16433DFB00A7A2E4 /* 1.txt in Resources */,
+				EDB49C9D16433DFB00A7A2E4 /* 2.txt in Resources */,
+				EDB49C9E16433DFB00A7A2E4 /* 3.txt in Resources */,
+				EDB49C9F16433DFB00A7A2E4 /* 4.txt in Resources */,
+				EDB49CA016433DFB00A7A2E4 /* 5.txt in Resources */,
+				EDB49CA116433DFB00A7A2E4 /* 6.txt in Resources */,
+				EDB49CA216433DFB00A7A2E4 /* 7.txt in Resources */,
+				EDB49CA316433DFB00A7A2E4 /* 8.txt in Resources */,
+				EDB49CA416433DFB00A7A2E4 /* 9.txt in Resources */,
+				EDB49CAF1643664800A7A2E4 /* es0.txt in Resources */,
+				EDB49CB01643664800A7A2E4 /* es1.txt in Resources */,
+				EDB49CB11643664800A7A2E4 /* es2.txt in Resources */,
+				EDB49CB21643664800A7A2E4 /* es3.txt in Resources */,
+				EDB49CB31643664800A7A2E4 /* es4.txt in Resources */,
+				EDB49CB41643664800A7A2E4 /* es5.txt in Resources */,
+				ED824FC4164978A300279ED5 /* french.txt in Resources */,
+				ED824FC5164978A300279ED5 /* german.txt in Resources */,
+				ED824FC6164978A300279ED5 /* italian.txt in Resources */,
+				ED824FC7164978A300279ED5 /* japanese.txt in Resources */,
+				ED824FC8164978A300279ED5 /* spanish.txt in Resources */,
+				EDDD136616F0188D00252215 /* small.txt in Resources */,
+				EDCBD74916FA203300A3CD74 /* cummingsPoemComponents.txt in Resources */,
+				EDCBD74A16FA203300A3CD74 /* sms_list_romanCharactersOnly.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB287D61617607E005D4E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB287EB1617607E005D4E93 /* main.m in Sources */,
+				EDB287F21617607E005D4E93 /* AppDelegate.m in Sources */,
+				EDB287F81617607F005D4E93 /* oed.xcdatamodeld in Sources */,
+				EDB28808161765B4005D4E93 /* Word.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDB287E71617607E005D4E93 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB287E81617607E005D4E93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDB287ED1617607E005D4E93 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB287EE1617607E005D4E93 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EDB287F31617607F005D4E93 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB287F41617607F005D4E93 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB287F91617607F005D4E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDB287FA1617607F005D4E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDB287FC1617607F005D4E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oed/oed-Prefix.pch";
+				INFOPLIST_FILE = "oed/oed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDB287FD1617607F005D4E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oed/oed-Prefix.pch";
+				INFOPLIST_FILE = "oed/oed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB287D41617607E005D4E93 /* Build configuration list for PBXProject "oed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB287F91617607F005D4E93 /* Debug */,
+				EDB287FA1617607F005D4E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB287FB1617607F005D4E93 /* Build configuration list for PBXNativeTarget "oed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB287FC1617607F005D4E93 /* Debug */,
+				EDB287FD1617607F005D4E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDB287F61617607F005D4E93 /* oed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDB287F71617607F005D4E93 /* oed.xcdatamodel */,
+			);
+			currentVersion = EDB287F71617607F005D4E93 /* oed.xcdatamodel */;
+			path = oed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDB287D11617607E005D4E93 /* Project object */;
+}

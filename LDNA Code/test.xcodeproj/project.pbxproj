@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B50CC81642DB3F004EC72C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CC71642DB3F004EC72C /* Accelerate.framework */; };
+		10B50CCA1642DB3F004EC72C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CC91642DB3F004EC72C /* AVFoundation.framework */; };
+		10B50CCC1642DB3F004EC72C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CCB1642DB3F004EC72C /* CoreFoundation.framework */; };
+		10B50CCE1642DB3F004EC72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CCD1642DB3F004EC72C /* CoreGraphics.framework */; };
+		10B50CD01642DB3F004EC72C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CCF1642DB3F004EC72C /* CoreImage.framework */; };
+		10B50CD21642DB3F004EC72C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CD11642DB3F004EC72C /* CoreMedia.framework */; };
+		10B50CD41642DB3F004EC72C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CD31642DB3F004EC72C /* CoreText.framework */; };
+		10B50CD61642DB3F004EC72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CD51642DB3F004EC72C /* Foundation.framework */; };
+		10B50CD81642DB3F004EC72C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CD71642DB3F004EC72C /* OpenGLES.framework */; };
+		10B50CDA1642DB3F004EC72C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CD91642DB3F004EC72C /* QuartzCore.framework */; };
+		10B50CDC1642DB3F004EC72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50CDB1642DB3F004EC72C /* UIKit.framework */; };
+		10B50CE21642DB3F004EC72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10B50CE01642DB3F004EC72C /* InfoPlist.strings */; };
+		10B50CE41642DB40004EC72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B50CE31642DB40004EC72C /* main.m */; };
+		10B50CE91642DB40004EC72C /* C4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B50CE81642DB40004EC72C /* C4AppDelegate.m */; };
+		10B50CEB1642DB40004EC72C /* C4WorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B50CEA1642DB40004EC72C /* C4WorkSpace.m */; };
+		10B50D111642DB40004EC72C /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B50D101642DB40004EC72C /* libC4.a */; };
+		10B50D141642DB40004EC72C /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D131642DB40004EC72C /* C4Loop.aif */; };
+		10B50D161642DB40004EC72C /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D151642DB40004EC72C /* C4Sky.png */; };
+		10B50D181642DB40004EC72C /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D171642DB40004EC72C /* C4Table.png */; };
+		10B50D1A1642DB40004EC72C /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D191642DB40004EC72C /* inception.mov */; };
+		10B50D1D1642DB40004EC72C /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D1C1642DB40004EC72C /* iTunesArtwork.png */; };
+		10B50D201642DB40004EC72C /* C4Canvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D1E1642DB40004EC72C /* C4Canvas.xib */; };
+		10B50D221642DB40004EC72C /* C4_AppIcon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D211642DB40004EC72C /* C4_AppIcon_iPad.png */; };
+		10B50D241642DB40004EC72C /* C4_AppIcon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D231642DB40004EC72C /* C4_AppIcon_iPad@2x.png */; };
+		10B50D261642DB40004EC72C /* C4_AppStoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D251642DB40004EC72C /* C4_AppStoreIcon.png */; };
+		10B50D281642DB40004EC72C /* C4_AppStoreIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D271642DB40004EC72C /* C4_AppStoreIcon@2x.png */; };
+		10B50D2A1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D291642DB40004EC72C /* C4_LaunchImage_iPad-Landscape.png */; };
+		10B50D2C1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D2B1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape@2x.png */; };
+		10B50D2E1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D2D1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait.png */; };
+		10B50D301642DB40004EC72C /* C4_LaunchImage_iPad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D2F1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait@2x.png */; };
+		10B50D321642DB40004EC72C /* C4_SpotlightIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D311642DB40004EC72C /* C4_SpotlightIcon.png */; };
+		10B50D341642DB40004EC72C /* C4_SpotlightIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D331642DB40004EC72C /* C4_SpotlightIcon@2x.png */; };
+		10B50D361642DB40004EC72C /* C4_SpotlightIcon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D351642DB40004EC72C /* C4_SpotlightIcon_iPad.png */; };
+		10B50D381642DB40004EC72C /* C4_SpotlightIcon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D371642DB40004EC72C /* C4_SpotlightIcon_iPad@2x.png */; };
+		10B50D3A1642DB40004EC72C /* C4_TabbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D391642DB40004EC72C /* C4_TabbarIcon.png */; };
+		10B50D3C1642DB40004EC72C /* C4_TabbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D3B1642DB40004EC72C /* C4_TabbarIcon@2x.png */; };
+		10B50D3E1642DB40004EC72C /* C4_ToolbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D3D1642DB40004EC72C /* C4_ToolbarIcon.png */; };
+		10B50D401642DB40004EC72C /* C4_ToolbarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B50D3F1642DB40004EC72C /* C4_ToolbarIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B50CC31642DB3F004EC72C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B50CC71642DB3F004EC72C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		10B50CC91642DB3F004EC72C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		10B50CCB1642DB3F004EC72C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		10B50CCD1642DB3F004EC72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10B50CCF1642DB3F004EC72C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		10B50CD11642DB3F004EC72C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		10B50CD31642DB3F004EC72C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		10B50CD51642DB3F004EC72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10B50CD71642DB3F004EC72C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		10B50CD91642DB3F004EC72C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10B50CDB1642DB3F004EC72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10B50CDF1642DB3F004EC72C /* test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-Info.plist"; sourceTree = "<group>"; };
+		10B50CE11642DB3F004EC72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10B50CE31642DB40004EC72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10B50CE51642DB40004EC72C /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
+		10B50CE61642DB40004EC72C /* C4WorkSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4WorkSpace.h; sourceTree = "<group>"; };
+		10B50CE71642DB40004EC72C /* C4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4AppDelegate.h; sourceTree = "<group>"; };
+		10B50CE81642DB40004EC72C /* C4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4AppDelegate.m; sourceTree = "<group>"; };
+		10B50CEA1642DB40004EC72C /* C4WorkSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4WorkSpace.m; sourceTree = "<group>"; };
+		10B50CED1642DB40004EC72C /* C4AddSubview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AddSubview.h; path = Headers/C4AddSubview.h; sourceTree = "<group>"; };
+		10B50CEE1642DB40004EC72C /* C4AssertionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4AssertionHandler.h; path = Headers/C4AssertionHandler.h; sourceTree = "<group>"; };
+		10B50CEF1642DB40004EC72C /* C4Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Camera.h; path = Headers/C4Camera.h; sourceTree = "<group>"; };
+		10B50CF01642DB40004EC72C /* C4CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CameraController.h; path = Headers/C4CameraController.h; sourceTree = "<group>"; };
+		10B50CF11642DB40004EC72C /* C4CanvasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CanvasController.h; path = Headers/C4CanvasController.h; sourceTree = "<group>"; };
+		10B50CF21642DB40004EC72C /* C4CaptureVideoPreviewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4CaptureVideoPreviewLayer.h; path = Headers/C4CaptureVideoPreviewLayer.h; sourceTree = "<group>"; };
+		10B50CF31642DB40004EC72C /* C4Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Control.h; path = Headers/C4Control.h; sourceTree = "<group>"; };
+		10B50CF41642DB40004EC72C /* C4Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Defines.h; path = Headers/C4Defines.h; sourceTree = "<group>"; };
+		10B50CF51642DB40004EC72C /* C4EAGLES1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLES1Renderer.h; path = Headers/C4EAGLES1Renderer.h; sourceTree = "<group>"; };
+		10B50CF61642DB40004EC72C /* C4EAGLESRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLESRenderer.h; path = Headers/C4EAGLESRenderer.h; sourceTree = "<group>"; };
+		10B50CF71642DB40004EC72C /* C4EAGLLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4EAGLLayer.h; path = Headers/C4EAGLLayer.h; sourceTree = "<group>"; };
+		10B50CF81642DB40004EC72C /* C4Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Font.h; path = Headers/C4Font.h; sourceTree = "<group>"; };
+		10B50CF91642DB40004EC72C /* C4Foundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Foundation.h; path = Headers/C4Foundation.h; sourceTree = "<group>"; };
+		10B50CFA1642DB40004EC72C /* C4Gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Gesture.h; path = Headers/C4Gesture.h; sourceTree = "<group>"; };
+		10B50CFB1642DB40004EC72C /* C4GL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL.h; path = Headers/C4GL.h; sourceTree = "<group>"; };
+		10B50CFC1642DB40004EC72C /* C4GL1Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4GL1Renderer.h; path = Headers/C4GL1Renderer.h; sourceTree = "<group>"; };
+		10B50CFD1642DB40004EC72C /* C4Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Image.h; path = Headers/C4Image.h; sourceTree = "<group>"; };
+		10B50CFE1642DB40004EC72C /* C4Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Label.h; path = Headers/C4Label.h; sourceTree = "<group>"; };
+		10B50CFF1642DB40004EC72C /* C4Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Layer.h; path = Headers/C4Layer.h; sourceTree = "<group>"; };
+		10B50D001642DB40004EC72C /* C4LayerAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4LayerAnimation.h; path = Headers/C4LayerAnimation.h; sourceTree = "<group>"; };
+		10B50D011642DB40004EC72C /* C4Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Math.h; path = Headers/C4Math.h; sourceTree = "<group>"; };
+		10B50D021642DB40004EC72C /* C4MethodDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4MethodDelay.h; path = Headers/C4MethodDelay.h; sourceTree = "<group>"; };
+		10B50D031642DB40004EC72C /* C4Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Movie.h; path = Headers/C4Movie.h; sourceTree = "<group>"; };
+		10B50D041642DB40004EC72C /* C4Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Notification.h; path = Headers/C4Notification.h; sourceTree = "<group>"; };
+		10B50D051642DB40004EC72C /* C4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Object.h; path = Headers/C4Object.h; sourceTree = "<group>"; };
+		10B50D061642DB40004EC72C /* C4PlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4PlayerLayer.h; path = Headers/C4PlayerLayer.h; sourceTree = "<group>"; };
+		10B50D071642DB40004EC72C /* C4Sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Sample.h; path = Headers/C4Sample.h; sourceTree = "<group>"; };
+		10B50D081642DB40004EC72C /* C4Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Shape.h; path = Headers/C4Shape.h; sourceTree = "<group>"; };
+		10B50D091642DB40004EC72C /* C4ShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ShapeLayer.h; path = Headers/C4ShapeLayer.h; sourceTree = "<group>"; };
+		10B50D0A1642DB40004EC72C /* C4Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Timer.h; path = Headers/C4Timer.h; sourceTree = "<group>"; };
+		10B50D0B1642DB40004EC72C /* C4Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Vector.h; path = Headers/C4Vector.h; sourceTree = "<group>"; };
+		10B50D0C1642DB40004EC72C /* C4View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4View.h; path = Headers/C4View.h; sourceTree = "<group>"; };
+		10B50D0D1642DB40004EC72C /* C4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4ViewController.h; path = Headers/C4ViewController.h; sourceTree = "<group>"; };
+		10B50D0E1642DB40004EC72C /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
+		10B50D0F1642DB40004EC72C /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
+		10B50D101642DB40004EC72C /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
+		10B50D131642DB40004EC72C /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
+		10B50D151642DB40004EC72C /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
+		10B50D171642DB40004EC72C /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
+		10B50D191642DB40004EC72C /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
+		10B50D1C1642DB40004EC72C /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Logos/iTunesArtwork.png; sourceTree = "<group>"; };
+		10B50D1F1642DB40004EC72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/C4Canvas.xib; sourceTree = "<group>"; };
+		10B50D211642DB40004EC72C /* C4_AppIcon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_AppIcon_iPad.png; path = Logos/C4_AppIcon_iPad.png; sourceTree = "<group>"; };
+		10B50D231642DB40004EC72C /* C4_AppIcon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_AppIcon_iPad@2x.png"; path = "Logos/C4_AppIcon_iPad@2x.png"; sourceTree = "<group>"; };
+		10B50D251642DB40004EC72C /* C4_AppStoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_AppStoreIcon.png; path = Logos/C4_AppStoreIcon.png; sourceTree = "<group>"; };
+		10B50D271642DB40004EC72C /* C4_AppStoreIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_AppStoreIcon@2x.png"; path = "Logos/C4_AppStoreIcon@2x.png"; sourceTree = "<group>"; };
+		10B50D291642DB40004EC72C /* C4_LaunchImage_iPad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Landscape.png"; path = "Logos/C4_LaunchImage_iPad-Landscape.png"; sourceTree = "<group>"; };
+		10B50D2B1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Landscape@2x.png"; path = "Logos/C4_LaunchImage_iPad-Landscape@2x.png"; sourceTree = "<group>"; };
+		10B50D2D1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Portrait.png"; path = "Logos/C4_LaunchImage_iPad-Portrait.png"; sourceTree = "<group>"; };
+		10B50D2F1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_LaunchImage_iPad-Portrait@2x.png"; path = "Logos/C4_LaunchImage_iPad-Portrait@2x.png"; sourceTree = "<group>"; };
+		10B50D311642DB40004EC72C /* C4_SpotlightIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_SpotlightIcon.png; path = Logos/C4_SpotlightIcon.png; sourceTree = "<group>"; };
+		10B50D331642DB40004EC72C /* C4_SpotlightIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_SpotlightIcon@2x.png"; path = "Logos/C4_SpotlightIcon@2x.png"; sourceTree = "<group>"; };
+		10B50D351642DB40004EC72C /* C4_SpotlightIcon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_SpotlightIcon_iPad.png; path = Logos/C4_SpotlightIcon_iPad.png; sourceTree = "<group>"; };
+		10B50D371642DB40004EC72C /* C4_SpotlightIcon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_SpotlightIcon_iPad@2x.png"; path = "Logos/C4_SpotlightIcon_iPad@2x.png"; sourceTree = "<group>"; };
+		10B50D391642DB40004EC72C /* C4_TabbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_TabbarIcon.png; path = Logos/C4_TabbarIcon.png; sourceTree = "<group>"; };
+		10B50D3B1642DB40004EC72C /* C4_TabbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_TabbarIcon@2x.png"; path = "Logos/C4_TabbarIcon@2x.png"; sourceTree = "<group>"; };
+		10B50D3D1642DB40004EC72C /* C4_ToolbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4_ToolbarIcon.png; path = Logos/C4_ToolbarIcon.png; sourceTree = "<group>"; };
+		10B50D3F1642DB40004EC72C /* C4_ToolbarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C4_ToolbarIcon@2x.png"; path = "Logos/C4_ToolbarIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B50CC01642DB3F004EC72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B50CC81642DB3F004EC72C /* Accelerate.framework in Frameworks */,
+				10B50CCA1642DB3F004EC72C /* AVFoundation.framework in Frameworks */,
+				10B50CCC1642DB3F004EC72C /* CoreFoundation.framework in Frameworks */,
+				10B50CCE1642DB3F004EC72C /* CoreGraphics.framework in Frameworks */,
+				10B50CD01642DB3F004EC72C /* CoreImage.framework in Frameworks */,
+				10B50CD21642DB3F004EC72C /* CoreMedia.framework in Frameworks */,
+				10B50CD41642DB3F004EC72C /* CoreText.framework in Frameworks */,
+				10B50CD61642DB3F004EC72C /* Foundation.framework in Frameworks */,
+				10B50CD81642DB3F004EC72C /* OpenGLES.framework in Frameworks */,
+				10B50CDA1642DB3F004EC72C /* QuartzCore.framework in Frameworks */,
+				10B50CDC1642DB3F004EC72C /* UIKit.framework in Frameworks */,
+				10B50D111642DB40004EC72C /* libC4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B50CB81642DB3F004EC72C = {
+			isa = PBXGroup;
+			children = (
+				10B50CDD1642DB3F004EC72C /* test */,
+				10B50CC61642DB3F004EC72C /* Frameworks */,
+				10B50CC41642DB3F004EC72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10B50CC41642DB3F004EC72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B50CC31642DB3F004EC72C /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B50CC61642DB3F004EC72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10B50CC71642DB3F004EC72C /* Accelerate.framework */,
+				10B50CC91642DB3F004EC72C /* AVFoundation.framework */,
+				10B50CCB1642DB3F004EC72C /* CoreFoundation.framework */,
+				10B50CCD1642DB3F004EC72C /* CoreGraphics.framework */,
+				10B50CCF1642DB3F004EC72C /* CoreImage.framework */,
+				10B50CD11642DB3F004EC72C /* CoreMedia.framework */,
+				10B50CD31642DB3F004EC72C /* CoreText.framework */,
+				10B50CD51642DB3F004EC72C /* Foundation.framework */,
+				10B50CD71642DB3F004EC72C /* OpenGLES.framework */,
+				10B50CD91642DB3F004EC72C /* QuartzCore.framework */,
+				10B50CDB1642DB3F004EC72C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10B50CDD1642DB3F004EC72C /* test */ = {
+			isa = PBXGroup;
+			children = (
+				10B50CEA1642DB40004EC72C /* C4WorkSpace.m */,
+				10B50CEC1642DB40004EC72C /* Framework */,
+				10B50D121642DB40004EC72C /* Media */,
+				10B50D1B1642DB40004EC72C /* Logos */,
+				10B50CDE1642DB3F004EC72C /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		10B50CDE1642DB3F004EC72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10B50CDF1642DB3F004EC72C /* test-Info.plist */,
+				10B50CE01642DB3F004EC72C /* InfoPlist.strings */,
+				10B50CE31642DB40004EC72C /* main.m */,
+				10B50CE51642DB40004EC72C /* test-Prefix.pch */,
+				10B50CE61642DB40004EC72C /* C4WorkSpace.h */,
+				10B50CE71642DB40004EC72C /* C4AppDelegate.h */,
+				10B50CE81642DB40004EC72C /* C4AppDelegate.m */,
+				10B50D1E1642DB40004EC72C /* C4Canvas.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B50CEC1642DB40004EC72C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				10B50CED1642DB40004EC72C /* C4AddSubview.h */,
+				10B50CEE1642DB40004EC72C /* C4AssertionHandler.h */,
+				10B50CEF1642DB40004EC72C /* C4Camera.h */,
+				10B50CF01642DB40004EC72C /* C4CameraController.h */,
+				10B50CF11642DB40004EC72C /* C4CanvasController.h */,
+				10B50CF21642DB40004EC72C /* C4CaptureVideoPreviewLayer.h */,
+				10B50CF31642DB40004EC72C /* C4Control.h */,
+				10B50CF41642DB40004EC72C /* C4Defines.h */,
+				10B50CF51642DB40004EC72C /* C4EAGLES1Renderer.h */,
+				10B50CF61642DB40004EC72C /* C4EAGLESRenderer.h */,
+				10B50CF71642DB40004EC72C /* C4EAGLLayer.h */,
+				10B50CF81642DB40004EC72C /* C4Font.h */,
+				10B50CF91642DB40004EC72C /* C4Foundation.h */,
+				10B50CFA1642DB40004EC72C /* C4Gesture.h */,
+				10B50CFB1642DB40004EC72C /* C4GL.h */,
+				10B50CFC1642DB40004EC72C /* C4GL1Renderer.h */,
+				10B50CFD1642DB40004EC72C /* C4Image.h */,
+				10B50CFE1642DB40004EC72C /* C4Label.h */,
+				10B50CFF1642DB40004EC72C /* C4Layer.h */,
+				10B50D001642DB40004EC72C /* C4LayerAnimation.h */,
+				10B50D011642DB40004EC72C /* C4Math.h */,
+				10B50D021642DB40004EC72C /* C4MethodDelay.h */,
+				10B50D031642DB40004EC72C /* C4Movie.h */,
+				10B50D041642DB40004EC72C /* C4Notification.h */,
+				10B50D051642DB40004EC72C /* C4Object.h */,
+				10B50D061642DB40004EC72C /* C4PlayerLayer.h */,
+				10B50D071642DB40004EC72C /* C4Sample.h */,
+				10B50D081642DB40004EC72C /* C4Shape.h */,
+				10B50D091642DB40004EC72C /* C4ShapeLayer.h */,
+				10B50D0A1642DB40004EC72C /* C4Timer.h */,
+				10B50D0B1642DB40004EC72C /* C4Vector.h */,
+				10B50D0C1642DB40004EC72C /* C4View.h */,
+				10B50D0D1642DB40004EC72C /* C4ViewController.h */,
+				10B50D0E1642DB40004EC72C /* C4Window.h */,
+				10B50D0F1642DB40004EC72C /* UITouch+C4Touch.h */,
+				10B50D101642DB40004EC72C /* libC4.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		10B50D121642DB40004EC72C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				10B50D131642DB40004EC72C /* C4Loop.aif */,
+				10B50D151642DB40004EC72C /* C4Sky.png */,
+				10B50D171642DB40004EC72C /* C4Table.png */,
+				10B50D191642DB40004EC72C /* inception.mov */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		10B50D1B1642DB40004EC72C /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				10B50D1C1642DB40004EC72C /* iTunesArtwork.png */,
+				10B50D211642DB40004EC72C /* C4_AppIcon_iPad.png */,
+				10B50D231642DB40004EC72C /* C4_AppIcon_iPad@2x.png */,
+				10B50D251642DB40004EC72C /* C4_AppStoreIcon.png */,
+				10B50D271642DB40004EC72C /* C4_AppStoreIcon@2x.png */,
+				10B50D291642DB40004EC72C /* C4_LaunchImage_iPad-Landscape.png */,
+				10B50D2B1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape@2x.png */,
+				10B50D2D1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait.png */,
+				10B50D2F1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait@2x.png */,
+				10B50D311642DB40004EC72C /* C4_SpotlightIcon.png */,
+				10B50D331642DB40004EC72C /* C4_SpotlightIcon@2x.png */,
+				10B50D351642DB40004EC72C /* C4_SpotlightIcon_iPad.png */,
+				10B50D371642DB40004EC72C /* C4_SpotlightIcon_iPad@2x.png */,
+				10B50D391642DB40004EC72C /* C4_TabbarIcon.png */,
+				10B50D3B1642DB40004EC72C /* C4_TabbarIcon@2x.png */,
+				10B50D3D1642DB40004EC72C /* C4_ToolbarIcon.png */,
+				10B50D3F1642DB40004EC72C /* C4_ToolbarIcon@2x.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B50CC21642DB3F004EC72C /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B50D431642DB40004EC72C /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				10B50CBF1642DB3F004EC72C /* Sources */,
+				10B50CC01642DB3F004EC72C /* Frameworks */,
+				10B50CC11642DB3F004EC72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 10B50CC31642DB3F004EC72C /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B50CBA1642DB3F004EC72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = C4;
+			};
+			buildConfigurationList = 10B50CBD1642DB3F004EC72C /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10B50CB81642DB3F004EC72C;
+			productRefGroup = 10B50CC41642DB3F004EC72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B50CC21642DB3F004EC72C /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B50CC11642DB3F004EC72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B50CE21642DB3F004EC72C /* InfoPlist.strings in Resources */,
+				10B50D141642DB40004EC72C /* C4Loop.aif in Resources */,
+				10B50D161642DB40004EC72C /* C4Sky.png in Resources */,
+				10B50D181642DB40004EC72C /* C4Table.png in Resources */,
+				10B50D1A1642DB40004EC72C /* inception.mov in Resources */,
+				10B50D1D1642DB40004EC72C /* iTunesArtwork.png in Resources */,
+				10B50D201642DB40004EC72C /* C4Canvas.xib in Resources */,
+				10B50D221642DB40004EC72C /* C4_AppIcon_iPad.png in Resources */,
+				10B50D241642DB40004EC72C /* C4_AppIcon_iPad@2x.png in Resources */,
+				10B50D261642DB40004EC72C /* C4_AppStoreIcon.png in Resources */,
+				10B50D281642DB40004EC72C /* C4_AppStoreIcon@2x.png in Resources */,
+				10B50D2A1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape.png in Resources */,
+				10B50D2C1642DB40004EC72C /* C4_LaunchImage_iPad-Landscape@2x.png in Resources */,
+				10B50D2E1642DB40004EC72C /* C4_LaunchImage_iPad-Portrait.png in Resources */,
+				10B50D301642DB40004EC72C /* C4_LaunchImage_iPad-Portrait@2x.png in Resources */,
+				10B50D321642DB40004EC72C /* C4_SpotlightIcon.png in Resources */,
+				10B50D341642DB40004EC72C /* C4_SpotlightIcon@2x.png in Resources */,
+				10B50D361642DB40004EC72C /* C4_SpotlightIcon_iPad.png in Resources */,
+				10B50D381642DB40004EC72C /* C4_SpotlightIcon_iPad@2x.png in Resources */,
+				10B50D3A1642DB40004EC72C /* C4_TabbarIcon.png in Resources */,
+				10B50D3C1642DB40004EC72C /* C4_TabbarIcon@2x.png in Resources */,
+				10B50D3E1642DB40004EC72C /* C4_ToolbarIcon.png in Resources */,
+				10B50D401642DB40004EC72C /* C4_ToolbarIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B50CBF1642DB3F004EC72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B50CE41642DB40004EC72C /* main.m in Sources */,
+				10B50CE91642DB40004EC72C /* C4AppDelegate.m in Sources */,
+				10B50CEB1642DB40004EC72C /* C4WorkSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10B50CE01642DB3F004EC72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B50CE11642DB3F004EC72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10B50D1E1642DB40004EC72C /* C4Canvas.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B50D1F1642DB40004EC72C /* en */,
+			);
+			name = C4Canvas.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B50D411642DB40004EC72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		10B50D421642DB40004EC72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B50D441642DB40004EC72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				INFOPLIST_FILE = "test/test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10B50D451642DB40004EC72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
+				INFOPLIST_FILE = "test/test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/test/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B50CBD1642DB3F004EC72C /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B50D411642DB40004EC72C /* Debug */,
+				10B50D421642DB40004EC72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B50D431642DB40004EC72C /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B50D441642DB40004EC72C /* Debug */,
+				10B50D451642DB40004EC72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B50CBA1642DB3F004EC72C /* Project object */;
+}
